@@ -38,8 +38,9 @@
 }
 
 .footer__logo {
-    margin-top: 0;
-    margin-bottom: 20px;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 20px;
 
     .logo-second-part {
         color: var(--footer-color);
