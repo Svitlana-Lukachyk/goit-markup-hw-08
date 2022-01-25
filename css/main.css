@@ -502,13 +502,13 @@ a {
   align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header__container {
     justify-content: space-between;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header-nav {
     display: none;
   }
