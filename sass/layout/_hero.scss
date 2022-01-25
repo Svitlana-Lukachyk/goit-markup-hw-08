@@ -2,48 +2,49 @@
     text-align: center;
     height: 400px;
     max-width: 480px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4) ), url(../images/herom@1x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4) ), url('../images/herom@1x.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    @media (min-device-pixel-ratio: 2),
+    @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
-      ), url(../images/herom@2x.jpg);
+      ), url('../images/herom@2x.jpg');
     }
     @media screen and (min-width: 768px) {
         background-image: linear-gradient(
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
-        ), url(../images/herot@1x.jpg);
+        ), url('../images/herot@1x.jpg');
         max-width: 768px;
-        @media (min-device-pixel-ratio: 2),
+        @media screen and (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
         background-image: linear-gradient(
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
-            ), url(../images/herot@2x.jpg);
+            ), url('../images/herot@2x.jpg');
         }
     }
+
     @media screen and (min-width: 1200px) {
         background-image: linear-gradient(
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
-        ), url(../images/herod@1x.jpg);
+        ), url('../images/herod@1x.jpg');
         height: 600px;
         max-width: 1600px;
-        @media (min-device-pixel-ratio: 2),
+        @media screen and (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
         background-image: linear-gradient(
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
             ),
-            url(../images/herod@2x.jpg);
+            url('../images/herod@2x.jpg');
         }
     }
 }
